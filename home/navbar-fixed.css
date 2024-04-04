@@ -1,0 +1,36 @@
+/* Show it is fixed to the top */
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  min-height: 52rem;
+  padding-top: 4.5rem;
+  background-image: url("../img/111.jpg");
+  background-size: cover;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.isii {
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
+  text-align: center;
+  font-size: 45px;
+  position: absolute;
+  bottom: 45%;
+  left: 10%;
+  right: 10%;
+}
+
+.gambarrr {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

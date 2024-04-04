@@ -1,0 +1,32 @@
+/* Show it is fixed to the top */
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  min-height: 52rem;
+  padding-top: 4.5rem;
+  background-image: url("../img/111.jpg");
+  background-size: cover;
+  background-color: aliceblue;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+}
+
+table {
+  margin: auto;
+}
+.tabell {
+  font-family: 'Courier New', Courier, monospace;
+  padding-bottom: 2%;
+  color: aliceblue;
+  position: absolute;
+  bottom: 15%;
+  left: 20%;
+  right: 20%;
+  justify-content: center;
+}

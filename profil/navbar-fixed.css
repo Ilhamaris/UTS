@@ -1,0 +1,56 @@
+/* Show it is fixed to the top */
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  min-height: 51rem;
+  padding-top: 4.5rem;
+  background-image: url("../img/111.jpg");
+  background-size: cover;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.container {
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 45px;
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
+  right: 10%;
+}
+
+.isi1 {
+  padding-top: 20px;
+  color: aliceblue;
+}
+
+.isi2 {
+  font-size: 20px;
+  text-align: start;
+  color: aliceblue;
+}
+
+.row {
+  margin-right: 10%;
+  padding-bottom: 2%;
+}
+
+.gambarr {
+  transition: transform .2s ease-in-out;
+}
+
+.gambarr:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}

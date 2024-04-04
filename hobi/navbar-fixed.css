@@ -1,0 +1,64 @@
+/* Show it is fixed to the top */
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  min-height: 52rem;
+  padding-top: 4.5rem;
+  background-image: url("../img/111.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 1500px; /* Optional: set a maximum width for the content */
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.intigbr {
+  font-family: 'Courier New', Courier, monospace;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.gambarrr3 {
+  transition: transform .2s ease-in-out;
+}
+
+.gambarrr3:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.gambarrr2 {
+  transition: transform .2s ease-in-out;
+}
+
+.gambarrr2:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.gambarrr1 {
+  transition: transform .2s ease-in-out;
+}
+
+.gambarrr1:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
